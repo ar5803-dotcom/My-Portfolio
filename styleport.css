@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgimage{
+    background-color:#E7F6F2;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:660px;
+}
+.hearderset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.hearder h1{
+    font-size: 25px;
+}
+.hearder h2{
+    font-size: 120px;
+}
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-emphasis-color: green;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+#about{
+    
+    padding-left: auto;
+    padding-right: 10px;
+    size-adjust: 2px;
+
+}
